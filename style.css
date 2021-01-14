@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1b1b1b;
+}
+
+#title {
+    font-family: 'Langar', cursive;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-top: 12px;
+    color: #f8b700;
+    width: 100%;
+    background-color: #3c1d3d;
+    height: 48px;
+    justify-content: space-between;
+    padding-right: 25px;
+}
+
+.game__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+    padding: 25px;
+    height: 100%;
+}
+
+#game-text {
+    text-align: center;
+    font-family: 'Langar', cursive;
+    color: #f8b700;
+    height: 100px;
+    margin-bottom: 150px;
+    font-size: 25px;
+    display: none;
+}
+
+#input__container {
+    width: 75%;
+    background-color: #cea558;
+    height: 30px;
+    border-radius: 4px;
+    display: none;
+    position: relative;
+}
+
+#buttom > input {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #1b1b1b;
+    align-items: center;
+    text-align: center; 
+    font-family: 'Langar', cursive;
+    display: none;
+}
+
+#hide {
+    font-size: 18px;
+}
+
+#real-text {
+    margin-top: 25px;
+    display: none;
+    overflow: scroll;
+    height: 150px;
+    background-color: #583757;
+}
+
+#real-text::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#hidezero {
+    display: none;
+}
+
+#real-text > p {
+    padding-top: 20px;
+}
+
+#container {
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bottom {
+    margin-top: 45.5px;
+    width: 175px;
+    background-color: #cea558;
+    border-radius: 2px;
+    justify-content: center;
+    height: 40px;
+}
+
+button {
+    height: 100%;
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline:none;
+}
+
+#title {
+    display: none;
+}
+
+#center {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__form {
+    display: flex;
+    background-color: #fff;
+    width: 30%;
+    height: 40px;
+    margin-top: 50px;
+    outline: none;
+    border-radius: 3px;
+    background-color: #cea558;
+    font-family: 'Langar', cursive;
+    color: black;
+}
+
+.user__form > input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    font-family: 'Langar', cursive;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#user-input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-family: 'Langar', cursive;
+    text-align: center;
+}
